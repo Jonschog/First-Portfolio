@@ -221,6 +221,7 @@ margin-left: 20px;
   .main-hero-container{
 
     flex-direction: column;
+    text-align:center;
 
     gap: 40px;
 
@@ -228,9 +229,17 @@ margin-left: 20px;
 
   .hero-container{justify-content: center;align-items: center;text-align: center;}
 
-  .bio-card{align-items: center;justify-content: center;padding-top: 0px;padding-left: 100px;}
+  .hero-container h1{font-size:2.5em}
+
+  hero-container h2{font-size:1.5em}
+
+  hero-container h3{font-size:1.2em}
+
+  .bio-card{align-items: center;justify-content: center;padding:0;}
 
   .about-me{text-align: center;padding: 10px;}
+  
+  .image-yoni{ width:200px;}
 
   .cards {
 
