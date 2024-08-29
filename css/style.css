@@ -1,4 +1,4 @@
-*{
+{
 
   background-color: #292929;
 
@@ -112,17 +112,13 @@ margin-left: 20px;
 
   flex-direction: column;
 
-  margin-left: 30px;
-
-  padding-top: 75px;
+  align-items: flex-start;
 
   justify-content: center;
 
-  /* Remove or adjust the height */
+  text-align: left;
 
-  height: auto;
-
-  max-height: 100vh; /* Optional: Only use this if you want a minimum height */
+  width: 100%;
 
 }
 
@@ -132,17 +128,17 @@ margin-left: 20px;
 
   display: flex;
 
-  flex-direction:row-reverse;
+  justify-content: center;
 
-  margin-right: 10%;
+  align-items: center;
 
-  padding-top: 75px;
+  width: 100%;
 
-  /* Remove or adjust the height */
+  margin: 0;
 
-  height: auto;
+  margin: 0;
 
-  max-height: 100vh; /* Optional: Only use this if you want a minimum height */
+  padding-top: 20px;
 
 }
 
@@ -153,6 +149,17 @@ margin-left: 20px;
   display: flex;
 
   gap: 300px;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 20px;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
 
 }
 
@@ -216,30 +223,34 @@ margin-left: 20px;
 
  
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
 
   .main-hero-container{
 
     flex-direction: column;
-    text-align:center;
 
     gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 
   }
 
-  .hero-container{justify-content: center;align-items: center;text-align: center;}
+  .hero-container{
+    width: 100%;
+    align-items: center;
+    text-align: center;}
 
-  .hero-container h1{font-size:3.5em}
+  .bio-card{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 100%;}
 
-  .hero-container h2{font-size:1.5em}
-
-  .hero-container h3{font-size:1.2em}
-
-  .bio-card{align-items: center;justify-content: center;padding:0;}
-
-  .about-me{text-align: center;padding: 10px;}
-  
-  .image-yoni{ width:200px;}
+  .about-me{
+    text-align: center;
+    padding: 10px;}
 
   .cards {
 
@@ -252,6 +263,11 @@ margin-left: 20px;
   .project-head{justify-content: center;align-items: center}
 
   .contact-head{justify-content: center;align-items: center}
+
+  .nav-link{
+  margin-left: 75%;
+    
+    }
 
 }
 
