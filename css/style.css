@@ -1,0 +1,431 @@
+*{
+
+  background-color: #292929;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+ 
+
+.sub{
+
+  margin-bottom: 0;
+
+}
+
+#navbar{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+ 
+
+}
+
+.navbar-custom {
+
+  background-color: transparent;
+
+  box-shadow: none;
+
+}
+
+ 
+
+.nav-item{
+
+margin-left: 20px;
+
+}
+
+ 
+
+.hero-container h1{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    font-size: 5em;
+
+    color: white;
+
+}
+
+.hero-container h2{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    font-size: 2em;
+
+    color: #00faa8;
+
+    margin-bottom: 0;
+
+}
+
+.hero-container h3{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    font-size: 2em;
+
+    color: white;
+
+}
+
+.hero-container p{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    font-size: 1em;
+
+    color: white;
+
+}
+
+ 
+
+.hero-container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  margin-left: 30px;
+
+  padding-top: 75px;
+
+  justify-content: center;
+
+  /* Remove or adjust the height */
+
+  height: auto;
+
+  max-height: 100vh; /* Optional: Only use this if you want a minimum height */
+
+}
+
+ 
+
+.bio-card {
+
+  display: flex;
+
+  flex-direction:row-reverse;
+
+  margin-right: 10%;
+
+  padding-top: 75px;
+
+  /* Remove or adjust the height */
+
+  height: auto;
+
+  max-height: 100vh; /* Optional: Only use this if you want a minimum height */
+
+}
+
+ 
+
+.main-hero-container{
+
+  display: flex;
+
+  gap: 300px;
+
+}
+
+ 
+
+.image-yoni{
+
+  border-radius: 25%;
+
+  border-color: #00faa8;
+
+  border-style: solid;
+
+  margin-bottom: 20px;
+
+}
+
+.text-p{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    font-size: 1em;
+
+    color: white;
+
+}
+
+ 
+
+.text-h3{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    font-size: 1.5em;
+
+    color:#00faa8;
+
+}
+
+.about-me {
+
+  padding: 80px 250px 50px 20px; /* Adjust padding to ensure space below */
+
+  margin-bottom: 0;
+
+}
+
+.about-me p {
+
+  margin-bottom: 20px;
+
+}
+
+ 
+
+@media (max-width: 1000px){
+
+  .main-hero-container{
+
+    flex-direction: column;
+
+    gap: 40px;
+
+  }
+
+  .hero-container{justify-content: center;align-items: center;text-align: center;}
+
+  .bio-card{align-items: center;justify-content: center;padding-top: 0px;padding-left: 100px;}
+
+  .about-me{text-align: center;padding: 10px;}
+
+  .cards {
+
+    flex-direction: column;
+
+    margin-top: 20px;
+
+  }
+
+  .project-head{justify-content: center;align-items: center}
+
+  .contact-head{justify-content: center;align-items: center}
+
+  .nav-link{
+  margin-left: 75%;
+    
+    }
+
+}
+
+ 
+
+.cards {
+
+  display: flex;
+
+  gap: 50px; /* Add gap between cards */
+
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  margin-top: 50px;/* Add margin to prevent overlap */
+
+  padding-bottom: 50px;
+
+  min-height: 40vh; /* Add padding at the bottom */
+
+  background-color: none;
+
+
+}
+
+ 
+
+.project-head{display:flex; margin-left:  20px;}
+
+ 
+
+.bottom-container{
+
+  display: flex; justify-content: center;gap: 50px;
+
+}
+
+ 
+
+.footer-link{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  color: #00faa8;
+  
+  cursor: pointer;
+
+  transition: transform 0.3 ease; background-color: #00faa8  0.3s ease;
+
+}
+
+.footer-link:hover{
+  transform: translateY(-10px);
+  background-color: #292929;
+}
+
+ 
+
+.copyright{
+
+  font-family: "Stint Ultra Expanded", serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+    color: #00faa8;
+
+    text-align: center;
+
+    padding-top: 30px;
+
+    font-size: 15px;
+
+}
+
+ 
+
+.card img{
+
+  width: 350px;
+
+  padding-bottom: 10px;}
+  
+
+ 
+
+  .card {
+
+    display: flex;
+
+    align-items: center;
+
+  }
+
+ 
+
+  .project-link {
+
+    font-family: "Stint Ultra Expanded", serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    color: #00faa8;
+
+    text-decoration: none;
+
+    font-size: 1em;
+
+    margin-top: 10px;
+    
+  }
+
+  .project-link:hover {
+
+    text-decoration: underline;
+
+  }
+
+ 
+
+  .card {
+
+    display: flex;
+
+    flex-direction: column; /* Ensures vertical alignment */
+
+    align-items: center;
+
+    text-align: center;
+
+    background-color: transparent !important;
+
+    padding: 0;
+
+    margin: 0;
+
+    border-style: none;
+
+    border: none !important;
+
+    box-shadow: none !important;
+
+  
+
+  }
+
+  .links2{
+    display: flex;
+
+    gap: 50px;
+  
+    justify-content: space-evenly;
+  
+    align-items: center;
+  
+    margin-top: 50px;
+  
+    padding-bottom: 50px;
+  
+    min-height: 40vh; 
+  
+
+  }
+
+/* 3D hover effect */ .movie-project:hover { transform: rotateY(15deg) rotateX(15deg); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); } /* Adding depth with a pseudo-element */ .card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.05); border-radius: 10px; z-index: -1; transform: translateZ(-10px); }  
+
+ .movie-project{box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+  transform-style: preserve-3d;
+
+  perspective: 1000px;}
